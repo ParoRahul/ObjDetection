@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/CPP_Library/opencv/GccBuild/install/include",
+                "D:/CPP_Library/Dlib/dlib-19.15/gccBuild/install/include",
+                "D:/CPP_Library/boost_1_67_0/Gccinstall/include/boost-1_67",
+                "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++",
+                "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32",
+                "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/tr1",
+                "C:/TDM-GCC-64/x86_64-w64-mingw32/include",
+                "C:/TDM-GCC-64/x86_64-w64-mingw32/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\TDM-GCC-64\\bin\\gcc.exe",
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "compileCommands": "D:/CPLUSPLUS/VSC/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,40 @@
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: D:/CPLUSPLUS/VSC/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_faea0/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_faea0.dir\build.make CMakeFiles/cmTC_faea0.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/CPLUSPLUS/VSC/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_faea0.dir/feature_tests.cxx.obj
+C:\MinGW\bin\g++.exe    -std=c++1z -o CMakeFiles\cmTC_faea0.dir\feature_tests.cxx.obj -c D:\CPLUSPLUS\VSC\build\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_faea0.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_faea0.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_faea0.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_faea0.dir/objects.a @CMakeFiles\cmTC_faea0.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_faea0.dir/objects.a -Wl,--no-whole-archive  -o cmTC_faea0.exe -Wl,--out-implib,libcmTC_faea0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_faea0.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/CPLUSPLUS/VSC/build/CMakeFiles/CMakeTmp'
+
+Cannot copy output executable
+  'D:/CPLUSPLUS/VSC/build/CMakeFiles/CMakeTmp/cmTC_faea0.exe'
+to destination specified by COPY_FILE:
+  'D:/CPLUSPLUS/VSC/build/CMakeFiles/feature_tests.bin'
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/CPLUSPLUS/VSC/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_a663d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a663d.dir\build.make CMakeFiles/cmTC_a663d.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/CPLUSPLUS/VSC/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a663d.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_a663d.dir\CheckIncludeFile.c.obj   -c D:\CPLUSPLUS\VSC\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+D:\CPLUSPLUS\VSC\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+                     ^
+compilation terminated.
+CMakeFiles\cmTC_a663d.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_a663d.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_a663d.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/CPLUSPLUS/VSC/build/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_a663d/fast' failed
+mingw32-make.exe: *** [cmTC_a663d/fast] Error 2
+
+
